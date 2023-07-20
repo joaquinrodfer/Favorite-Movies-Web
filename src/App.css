@@ -1,0 +1,21 @@
+.mv-list {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.mv-list h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+.mvs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4rem;
+}

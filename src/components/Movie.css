@@ -1,0 +1,40 @@
+.mv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.mv-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.mv-img {
+    width: 450px;
+}
+
+.mv-authors {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.mv-rating {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 1rem;
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    .mv-img {
+        width: 300px;
+    }
+}
