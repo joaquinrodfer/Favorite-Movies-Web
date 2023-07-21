@@ -17,9 +17,18 @@
     align-items: center;
     justify-content: center;
 
+    margin-top: 2rem;
     gap: 4rem;
 }
 
 .mvs-loading {
     width: 50px;
+}
+
+.mv-list-filters {
+    width: 100%;
+}
+
+.mv-list-filters-menu {
+    text-align: center;
 }
