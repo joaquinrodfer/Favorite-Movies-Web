@@ -1,34 +1,13 @@
-.mv-list {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-}
-
-.mv-list h1 {
-    font-size: 3rem;
+main > .title {
+    text-align: center;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 2.5rem;
-}
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 60px;
+    margin-bottom: 2rem;
 
-.mvs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    margin-top: 2rem;
-    gap: 4rem;
-}
-
-.mvs-loading {
-    width: 50px;
-}
-
-.mv-list-filters {
-    width: 100%;
-}
-
-.mv-list-filters-menu {
-    text-align: center;
+    color: #FFF;
+    text-decoration: none;
 }

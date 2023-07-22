@@ -1,0 +1,86 @@
+.mv-list {
+    width: 100%;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.mvs {
+    width: 90%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.mvs > a {
+    height: fit-content;
+
+    z-index: 10;
+    text-decoration: none;
+    color: #FFF;
+    transition: transform 0.2s ease-in-out;
+}
+
+.mvs > a:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.mvs > a > .mv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.mvs > a > .mv > .mv-img {
+    height: 380px;
+    width: 250px;
+    margin-bottom: 16px;
+}
+
+.mvs-loading {
+    width: 50px;
+}
+
+.mv-list-filters {
+    width: 100%;
+}
+
+.mv-list-filters-menu {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    :root {
+        width: 100%;
+    }
+
+    .mv-list {
+        width: 100%;
+        
+    }
+
+    .mvs {
+        grid-template-columns: 50% 50%;
+        grid-gap: 0.4rem;
+    }
+
+    .mvs > a > .mv > .mv-img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .mv > p.mv-rating {
+        text-align: center;
+        font-size: 0.8rem;
+    } 
+}
