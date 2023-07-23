@@ -16,7 +16,6 @@ export function App() {
   }
 
   useEffect(() => {
-    console.log('useEffectMovies')
     getMovies()
   }, [])
 
